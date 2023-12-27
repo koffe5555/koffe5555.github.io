@@ -1,0 +1,96 @@
+body {
+    background-color: #f8f7ff; /* Set background color to #edf6f9 */
+    margin: 0;
+    padding: 0;
+  }
+  /* Customize additional styles here */
+  .navbar-nav .nav-item .nav-link:hover {
+    background-color: #f8f7ff; /* Change the hover background color */
+    color: #b8b8ff; /* Change text color on hover if needed */
+  }
+  .fa-instagram {
+    color: #b8b8ff; /* Change the color */
+    transition: all 0.3s ease-in-out;
+  }
+  .fa-instagram:hover {
+    color: #9381ff; /* Change the color */
+    transform: scale(1.2);
+  }
+  .fa-facebook {
+    margin-left: 20px;
+    color: #b8b8ff; /* Change the color */
+    transition: all 0.3s ease-in-out;
+  }
+  .fa-facebook:hover {
+    color: #9381ff; /* Change the color */
+    transform: scale(1.2);
+  }
+  .navbar-nav {
+    width: 70%;
+    display: flex;
+    justify-content: space-around; /* Adjust spacing between navbar items */
+    align-items: center; /* Center align navbar items vertically */
+  }
+  
+  /* Adjust individual navbar item styles */
+  .navbar-nav .nav-item {
+    flex: 1;
+    text-align: center;
+    
+  }
+  
+  /* Initial styles for navbar items */
+  .navbar-nav .nav-item .nav-link{
+    transition: background-color 0.3s ease, color 0.3s ease; /* Add transition effect for color changes */
+    font-weight: bold; /* Make the font bold */
+    font-size: 1.1em; /* Increase font size */
+    text-transform: uppercase; /* Transform text to uppercase for a modern look */
+    letter-spacing: 1px; /* Add letter spacing for a modern feel */
+    color: #777779; /* Set default text color */
+  }
+  
+  /* Hover styles */
+  .navbar-nav .nav-item .nav-link:hover {
+    background-color: #9381ff; /* Change background color on hover */
+    color: #f8f7ff; /* Change text color on hover */
+  }
+  
+  /* Active link styles */
+  .navbar-nav .nav-item .active {
+    background-color: #9381ff; /* Set background color for active link */
+    color: #f8f7ff; /* Set text color for active link */
+  }.navbar-nav {
+    width: 70%;
+    display: flex;
+    justify-content: space-around; /* Adjust spacing between navbar items */
+    align-items: center; /* Center align navbar items vertically */
+  }
+  
+  /* Adjust individual navbar item styles */
+  .navbar-nav .nav-item {
+    flex: 1;
+    text-align: center;
+    
+  }
+  
+  /* Initial styles for navbar items */
+  .navbar-nav .nav-item .nav-link{
+    transition: background-color 0.3s ease, color 0.3s ease; /* Add transition effect for color changes */
+    font-weight: bold; /* Make the font bold */
+    font-size: 1.1em; /* Increase font size */
+    text-transform: uppercase; /* Transform text to uppercase for a modern look */
+    letter-spacing: 1px; /* Add letter spacing for a modern feel */
+    color: #777779; /* Set default text color */
+  }
+  
+  /* Hover styles */
+  .navbar-nav .nav-item .nav-link:hover {
+    background-color: #9381ff; /* Change background color on hover */
+    color: #f8f7ff; /* Change text color on hover */
+  }
+  
+  /* Active link styles */
+  .navbar-nav .nav-item .active {
+    background-color: #9381ff; /* Set background color for active link */
+    color: #f8f7ff; /* Set text color for active link */
+  }

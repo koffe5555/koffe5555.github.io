@@ -1,0 +1,27 @@
+body {
+    background-color: #f8f7ff; /* Set background color to #edf6f9 */
+    margin: 0;
+    padding: 0;
+  }
+  /* Customize additional styles here */
+  .navbar-nav .nav-item .nav-link:hover {
+    background-color: #f8f7ff; /* Change the hover background color */
+    color: #b8b8ff; /* Change text color on hover if needed */
+  }
+  .fa-instagram {
+    color: #b8b8ff; /* Change the color */
+    transition: all 0.3s ease-in-out;
+  }
+  .fa-instagram:hover {
+    color: #9381ff; /* Change the color */
+    transform: scale(1.2);
+  }
+  .fa-facebook {
+    margin-left: 20px;
+    color: #b8b8ff; /* Change the color */
+    transition: all 0.3s ease-in-out;
+  }
+  .fa-facebook:hover {
+    color: #9381ff; /* Change the color */
+    transform: scale(1.2);
+  }
